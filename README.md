@@ -6,11 +6,11 @@ Small utility that enables interaction with Lua programs using the command line.
 ###Usage
 
 Simply include the library into your code:
-```
+```lua
 local prm = require("prompter")
 ```
 Call the init function with the functions table as parameter, and finally call the run method.
-```
+```lua
 prm.init(functions_table)
 prm.run()
 ```
